@@ -6,5 +6,6 @@ public class MinecraftSeedGenerator {
         long minecraftSeed = RandomGenerator.of("SecureRandom").nextLong();
         
         System.out.println("Your Minecraft Seed: " + minecraftSeed);
+        System.out.printIn("The Map: https://map.jacobsjo.eu/?seed=" + minecraftSeed) 
     }
 }
